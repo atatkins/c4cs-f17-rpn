@@ -17,7 +17,7 @@ def calculate(myarg):
 			function = ops[token]
 			result = function(arg1, arg2)
 			stack.append(result)
-	#print(stack)
+	print(stack)
 	return stack.pop()
 
 def main():

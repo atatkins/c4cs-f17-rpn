@@ -12,5 +12,5 @@ class TestBasics(unittest.TestCase):
 		self.assertEqual(2, result)
 	def test_carrot(self):
 		result = rpn.calculate('2 4 ^')
-		self.assertEqual(16)
+		self.assertEqual(6)
 

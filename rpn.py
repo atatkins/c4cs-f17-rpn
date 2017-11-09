@@ -3,7 +3,8 @@ import operator
 
 ops = {
 	'+': operator.add,
-	'-': operator.sub
+	'-': operator.sub,
+	'^': operator.ixor
 }
 def calculate(myarg):
 	stack = list()
